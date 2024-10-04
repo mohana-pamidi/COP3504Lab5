@@ -100,3 +100,4 @@ int main()
     std::cout << "The time used of binary search for aaaaa is:" << elapsed_time << std::endl;
     std::cout << std::endl;
 }
+
