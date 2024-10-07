@@ -1,7 +1,7 @@
 #include <iostream>
 #include "StringData.h"
 
-int linear_search(std::vector<std::string> container, std::string element)
+int linear_search(std::vector<std::string>& container, std::string element)
 {
     for (int i = 0; i < container.size(); i++)
     {
@@ -13,7 +13,7 @@ int linear_search(std::vector<std::string> container, std::string element)
     return -1;
 }
 
-int binary_search(std::vector<std::string> container, std::string element)
+int binary_search(std::vector<std::string>& container, std::string element)
 {
     int lower_bound = 0;
     int upper_bound = container.size() -1;
